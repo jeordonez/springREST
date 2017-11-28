@@ -1,0 +1,11 @@
+spring:
+    jpa:
+        database: MYSQL
+        hibernate:
+            ddl-auto: create
+
+    datasource:
+        url: jdbc:mysql://mysqliwcn/iwcn
+        username: root
+        password: root12345
+        driver-class-name: com.mysql.jdbc.Driver
